@@ -8,7 +8,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(247, 247, 194);
-  padding: 20px;
+  padding: 5px;
   margin: auto;
 }
 
@@ -17,14 +17,14 @@ a {
   text-decoration: none;
   font-family: "Pacifico", cursive; /* google font*/
   color: gray;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 0.5px;
 }
 
 a:after {
   content: "";
   position: absolute;
-  background-color: rgb(248, 196, 196);
+  background-color: rgb(193, 193, 243);
   height: 3px;
   width: 0;
   left: 0;
@@ -38,4 +38,54 @@ a:hover {
 
 a:hover:after {
   width: 100%;
+}
+
+.bee {
+  height: 70px;
+}
+
+.cart {
+  height: 34px;
+  transition: 0.5s ease;
+}
+a:hover .cart {
+  opacity: 0.3;
+}
+/* "hero" */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 24px;
+  padding: 15 px;
+}
+
+.para {
+  background: url(img/sunflowers.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+.quote {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Righteous", cursive;
+  color: rgb(231, 171, 171);
+}
+.by {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Righteous", cursive;
+  padding-bottom: 50px;
+  color: rgb(231, 171, 171);
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 24px;
+  padding: 20 px;
+}
+
+.aboutus {
+  margin: 100px;
 }
