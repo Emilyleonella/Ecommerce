@@ -13,7 +13,7 @@ nav {
   margin: auto;
 }
 
-a {
+.link {
   position: relative;
   text-decoration: none;
   font-family: "Pacifico", cursive; /* google font*/
@@ -22,7 +22,7 @@ a {
   letter-spacing: 0.5px;
 }
 
-a:after {
+.link:after {
   content: "";
   position: absolute;
   background-color: rgb(193, 193, 243);
@@ -33,11 +33,11 @@ a:after {
   transition: 0.3s;
 }
 
-a:hover {
+.link:hover {
   color: black;
 }
 
-a:hover:after {
+.link:hover:after {
   width: 100%;
 }
 
@@ -49,7 +49,7 @@ a:hover:after {
   height: 34px;
   transition: 0.5s ease;
 }
-a:hover .cart {
+.link:hover .cart {
   opacity: 0.3;
 }
 /* "hero" */
@@ -97,4 +97,13 @@ footer {
   font-family: "Pacifico", cursive;
   font-size: 20px;
   text-align: center;
+}
+
+.logo {
+  border: 1px solid gray;
+  border-radius: 400px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
 }
