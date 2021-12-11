@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 /* Navigation bar */
 nav {
@@ -41,7 +42,7 @@ a:hover:after {
 }
 
 .bee {
-  height: 70px;
+  height: 65px;
 }
 
 .cart {
@@ -88,4 +89,12 @@ a:hover .cart {
 
 .aboutus {
   margin: 100px;
+}
+
+footer {
+  background-color: rgba(194, 247, 197, 0.596);
+  padding: 0px;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: center;
 }
