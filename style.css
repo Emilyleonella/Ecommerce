@@ -106,4 +106,10 @@ footer {
   height: 40px;
   line-height: 38px;
   display: inline-block;
+  color: gray;
+}
+
+.social {
+  margin-bottom: -30px;
+  padding-top: 5px;
 }
