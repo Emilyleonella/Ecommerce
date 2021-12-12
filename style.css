@@ -135,14 +135,10 @@ footer {
   width: 150px;
   object-fit: cover;
   margin: 30px;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
-  margin-bottom: -10px;
 }
 
 .price {
   margin: 10px;
-
   font-family: "Pacifico", cursive;
   font-size: 20px;
   text-align: center;
@@ -152,4 +148,65 @@ button {
   background-color: rgb(241, 148, 148);
   padding: 5px;
   border-radius: 10px;
+}
+
+/* paralax*/
+.conpara {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: pink;
+  font-size: 24px;
+  padding: 15 px;
+}
+
+.para1 {
+  background: url(img/para1.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
+.para2 {
+  background: url(img/para2.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
+.categ {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.example {
+  display: flex;
+  justify-content: center;
+}
+
+.fig {
+  height: 400px;
+  width: 440px;
+  padding: 30px;
+}
+
+.example2 {
+  display: flex;
+  justify-content: center;
+}
+
+.fig2 {
+  height: 400px;
+  width: 470px;
+  padding: 30px;
+}
+
+.up {
+  padding: 20px;
+}
+.arrowup {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.headup {
+  text-align: center;
+  font-family: "Pacifico", cursive;
 }
