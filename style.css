@@ -121,3 +121,35 @@ footer {
   margin-top: 0px;
   margin-bottom: -20px;
 }
+/* CSS for notebook.html starts here*/
+.maincon {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.nbook {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin: 30px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  margin-bottom: -10px;
+}
+
+.price {
+  margin: 10px;
+
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(241, 148, 148);
+  padding: 5px;
+  border-radius: 10px;
+}
