@@ -104,14 +104,18 @@ nav {
   text-align: center;
   font-size: 37px;
   font-family: "Righteous", cursive;
-  color: rgb(231, 171, 171);
+  color: rgba(63, 65, 65, 0.918);
+  text-shadow: -2px 1px 0 rgb(233, 149, 149);
+  background-color: rgb(224, 242, 250);
 }
 .by {
   text-align: center;
   font-size: 30px;
   font-family: "Righteous", cursive;
-  padding-bottom: 30px;
-  color: rgb(231, 171, 171);
+  padding-bottom: px;
+  color: rgba(63, 65, 65, 0.918);
+  text-shadow: -2px 1px 0 rgb(233, 149, 149);
+  background-color: rgb(224, 242, 250);
 }
 .container {
   max-width: 100%;
@@ -122,6 +126,8 @@ nav {
 
 .aboutus {
   margin: 100px;
+  font-family: cursive;
+  font-size: 30px;
 }
 
 footer {
@@ -270,34 +276,36 @@ button {
 }
 
 /* Contact page */
-Form {
-  margin-left: auto;
-  margin-right: auto;
-}
 
+/* contact container */
 .contact {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  border: none;
-}
-
-textarea {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  height: 200px;
-  width: 200px;
-}
-
-.containerform {
   text-align: center;
+  background-color: rgb(193, 193, 243);
   width: 400px;
   margin: 5px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 250px;
+  border-style: solid;
 }
 
+form {
+  margin: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 /*Tablet View*/
 @media only screen and (max-width: 768px) {
   .fig {
