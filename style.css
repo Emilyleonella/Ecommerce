@@ -2,7 +2,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Pacifico", cursive;
 }
+
 /* Navigation bar */
 nav {
   display: flex;
@@ -66,10 +68,41 @@ nav {
   background-attachment: fixed;
   height: 400px;
 }
+
+.para1 {
+  background: url(img/para1.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
+.para2 {
+  background: url(img/para2.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
+.para3 {
+  background: url(img/para7.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 430px;
+}
+.para4 {
+  background: url(img/parasun.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 430px;
+}
+.para5 {
+  background: url(img/paragv.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150px;
+}
 .quote {
-  padding: 30px;
+  padding: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 37px;
   font-family: "Righteous", cursive;
   color: rgb(231, 171, 171);
 }
@@ -77,7 +110,7 @@ nav {
   text-align: center;
   font-size: 30px;
   font-family: "Righteous", cursive;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   color: rgb(231, 171, 171);
 }
 .container {
@@ -130,13 +163,50 @@ footer {
   justify-content: space-evenly;
 }
 
+.contain1 {
+  position: relative;
+  width: 100%;
+}
+
+.contain1:hover .overlay {
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgb(247, 247, 194);
+}
+
+.description {
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  height: 170px;
+  width: 155px;
+  padding-top: 30px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 .nbook {
   height: 150px;
   width: 150px;
   object-fit: cover;
   margin: 30px;
 }
-
+h3 {
+  padding: 5px;
+}
 .price {
   margin: 10px;
   font-family: "Pacifico", cursive;
@@ -159,18 +229,6 @@ button {
   padding: 15 px;
 }
 
-.para1 {
-  background: url(img/para1.jpeg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 150px;
-}
-.para2 {
-  background: url(img/para2.jpeg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 150px;
-}
 .categ {
   font-family: "Pacifico", cursive;
   text-align: center;
@@ -209,4 +267,81 @@ button {
 .headup {
   text-align: center;
   font-family: "Pacifico", cursive;
+}
+
+/* Contact page */
+Form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border: none;
+}
+
+textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+}
+
+.containerform {
+  text-align: center;
+  width: 400px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 250px;
+}
+
+/*Tablet View*/
+@media only screen and (max-width: 768px) {
+  .fig {
+    height: 200px;
+    width: 210px;
+  }
+  .fig2 {
+    height: 200px;
+    width: 210px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fig {
+    height: 300px;
+    width: 310px;
+  }
+  .fig2 {
+    height: 300px;
+    width: 310px;
+  }
+}
+
+/* Mobile View*/
+@media only screen and (max-width: 375px) {
+  .fig {
+    height: 130px;
+    width: 140px;
+    padding: 7px;
+  }
+  .fig2 {
+    height: 200px;
+    width: 210px;
+  }
+  .nbook {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 10px;
+  }
+
+  button {
+    background-color: rgb(241, 148, 148);
+    padding: 3px;
+    border-radius: 7px;
+  }
 }
