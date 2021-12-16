@@ -5,7 +5,7 @@
   font-family: "Pacifico", cursive;
 }
 
-/* Navigation bar */
+/* Navigation bar **************** */
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -54,10 +54,12 @@ nav {
 .link:hover .cart {
   opacity: 0.3;
 }
-/* "hero" */
-.container {
+/* Parallax Effct for all the pages ***************** */
+
+.conpara {
   max-width: 100%;
   margin: 0 auto;
+  background-color: pink;
   font-size: 24px;
   padding: 15 px;
 }
@@ -66,7 +68,7 @@ nav {
   background: url(img/sunflowers.jpeg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 400px;
+  height: 470px;
 }
 
 .para1 {
@@ -99,6 +101,13 @@ nav {
   background-attachment: fixed;
   height: 150px;
 }
+.para6 {
+  background: url(img/para6.jpeg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+}
+/* Quotes for all the pages */
 .quote {
   padding: 40px;
   text-align: center;
@@ -123,13 +132,14 @@ nav {
   font-size: 24px;
   padding: 20 px;
 }
+/*Parallax effect css ends here ************* */
 
 .aboutus {
   margin: 100px;
   font-family: cursive;
   font-size: 30px;
 }
-
+/*Footer for all the pages start here **************** */
 footer {
   background-color: rgba(194, 247, 197, 0.596);
   padding: 0px;
@@ -148,7 +158,6 @@ footer {
 
 .social {
   margin-bottom: -20px;
-  padding-top: px;
 }
 
 .logo:hover {
@@ -161,6 +170,8 @@ footer {
   margin-bottom: -20px;
 }
 /* CSS for notebook.html starts here*/
+
+/* contains products */
 .maincon {
   display: flex;
   padding: 10px;
@@ -204,15 +215,14 @@ footer {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/* this is the product images */
 .nbook {
   height: 150px;
   width: 150px;
   object-fit: cover;
   margin: 30px;
 }
-h3 {
-  padding: 5px;
-}
+
 .price {
   margin: 10px;
   font-family: "Pacifico", cursive;
@@ -224,15 +234,6 @@ button {
   background-color: rgb(241, 148, 148);
   padding: 5px;
   border-radius: 10px;
-}
-
-/* paralax*/
-.conpara {
-  max-width: 100%;
-  margin: 0 auto;
-  background-color: pink;
-  font-size: 24px;
-  padding: 15 px;
 }
 
 .categ {
@@ -298,14 +299,28 @@ input {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 textarea {
   width: 100%;
-  padding: 12px 20px;
+  padding: 40px 10px;
+  padding-top: 5px;
   margin: 8px 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.formbutton {
+  margin-bottom: 30px;
+}
+.formbutton:hover {
+  background-color: rgb(145, 236, 209);
+}
+button:hover {
+  background-color: rgb(236, 235, 162);
+}
+
 /*Tablet View*/
 @media only screen and (max-width: 768px) {
   .fig {
